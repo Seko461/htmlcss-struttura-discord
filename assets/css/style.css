@@ -136,3 +136,44 @@ a {
     height: 100%;
     background-color: lightblue;
 }
+
+/*----------------  /main --------------*/
+
+
+
+.footer_container {
+    height: 440px;
+    background-color: rgb(45, 45, 45);
+    padding-top: 10px;
+
+    display: flex;
+
+}
+
+.footer_content {
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    background-color: coral;
+    display: flex;
+
+}
+
+.large_column_footer {
+    flex-grow: 1.5;
+    height: 100%;
+    border: 2px dotted black;
+}
+
+.column {
+    flex-grow: 1;
+    height: 100%;
+    border: 2px dotted black;
+    background-color: aquamarine;
+}
+
+.footer_bar {
+    background-color: rgb(45, 45, 45);
+    border-top: 3px solid gray;
+    height: 40px;
+}
