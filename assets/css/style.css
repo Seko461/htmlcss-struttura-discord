@@ -28,11 +28,10 @@
     width: 20%;
     height: 100%;
     border: 2px dotted black;
-
-
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
 }
-
-.logo {}
 
 .link_bar {
     width: 60%;
@@ -44,7 +43,7 @@
 }
 
 .link_container {
-    width: 60%;
+    width: 40%;
     margin: auto;
     display: flex;
 }
@@ -72,4 +71,26 @@ a {
     width: 20%;
     height: 100%;
     border: 2px dotted black;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 5px;
 }
+
+.banner {
+    height: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+
+}
+
+.banner_content {
+    margin: auto;
+    width: 50%;
+    height: 200px;
+    border: 2px dotted black;
+    background-color: palevioletred;
+}
+
+/*---------------- /header -----------------*/
