@@ -172,8 +172,27 @@ a {
     background-color: aquamarine;
 }
 
-.footer_bar {
+.footer_nav {
     background-color: rgb(45, 45, 45);
     border-top: 3px solid gray;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_bar {
+    margin: auto;
+    width: 70%;
     height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo,
+.button {
+    border: 2px dotted black;
+    background-color: pink;
+    padding: 3px;
 }
