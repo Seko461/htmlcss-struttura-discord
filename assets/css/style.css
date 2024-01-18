@@ -94,3 +94,45 @@ a {
 }
 
 /*---------------- /header -----------------*/
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#up {
+    background-color: grey;
+}
+
+#bottom {
+    background-color: grey;
+    height: 600px;
+}
+
+
+.section_content {
+    background-color: green;
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    display: flex;
+}
+
+.large {
+    height: 550px;
+}
+
+.img {
+    border: 2px dotted black;
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+}
+
+.description {
+    border: 2px dotted black;
+    width: 60%;
+    height: 100%;
+    background-color: lightblue;
+}
