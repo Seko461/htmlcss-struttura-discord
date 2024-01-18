@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site_header {
+    background-color: blue;
+    height: 300px;
+}
+
+.nav_section {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+}
+
+.nav_bar {
+    background-color: rgb(255, 251, 0);
+    height: 40px;
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.logo-section {
+    width: 20%;
+    height: 100%;
+    border: 2px dotted black;
+
+
+}
+
+.logo {}
+
+.link_bar {
+    width: 60%;
+    height: 100%;
+    border: 2px dotted black;
+    display: flex;
+
+
+}
+
+.link_container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+li {
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.form_log {
+    width: 20%;
+    height: 100%;
+    border: 2px dotted black;
+}
